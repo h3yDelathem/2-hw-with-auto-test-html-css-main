@@ -14,7 +14,7 @@ header {
     width: 1440px;
     height: 70px;
     background: #2965f1;
-    padding: 23px 0px
+    padding: 23px 0;
     /* Стили для хедера */
 }
 
@@ -26,39 +26,75 @@ header span {
 }
 
 .main-section {
+    background: #fafaff;
+    width: 1440px;
+    height: 1024px;
+    padding-top: 60px;
     /* Стили для первой секции */
 }
 
 .main-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    padding-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
     /* Стили для текста в первой секции */
 }
 
 .main-image {
+    width: 715px;
+    height: 508px;
     /* Стили для изображения в первой секции */
 }
 
 
 .about-section {
+    fill: #fff;
+    width: 1440px;
+    height: 883px;
+    padding-top: 100px;
     /* Стили для второй секции */
 }
 
 select {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    padding: 9px 12px;
     /* Стили для выпадающего списка */
 }
 
 .section-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    padding-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
+    list-style-image: url("./assets/Vector.svg");
+    margin-left: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
+    list-style-type: decimal;
+    padding-left: 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
