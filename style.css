@@ -135,6 +135,10 @@ select {
 }
 
 table {
+    font-size: 14px;
+    font-weight: 300;
+    border: 1px solid #303030 ;
+    border-collapse: collapse;
     /* Стили для таблицы */
 }
 
